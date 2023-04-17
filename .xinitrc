@@ -4,7 +4,6 @@ while true; do
    sleep 1m    # Update time every minute
 done &
 
-# Autostart section
-pcmanfm & 
+# Autostart
 
 exec dwm
