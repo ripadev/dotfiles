@@ -1,0 +1,5 @@
+#!/bin/sh
+
+volume=$(pactl list sinks | grep -oP 'Volume:.*?\%' | awk '{print $5}' | tr -d '%')
+percent=$(pactl list sinks | grep -oP 'Volume:.*?\%' | awk '{print $5}')
+echo "Vol:$percent"
