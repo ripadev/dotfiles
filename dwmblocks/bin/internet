@@ -22,4 +22,4 @@ case "$(cat /sys/class/net/w*/operstate 2>/dev/null)" in
 	up) wifiicon="$(awk '/^\s*w/ { print int($3 * 100 / 70) "%" }' /proc/net/wireless)" wifiname=$(iw dev | grep ssid | awk '{print $2}');;
 esac
 
-printf "%s%s%s\n" "Sig:$wifiicon-" "$wifiname " "$(sed "s/down/<down>/;s/up/<up>/" /sys/class/net/w*/operstate 2>/dev/null)" 
+printf "%s%s%s\n" "Sig:$wifiicon-" "$wifiname" "$(sed "s/down/<down>/;s/up/<up>/" /sys/class/net/w*/operstate 2>/dev/null)" 
