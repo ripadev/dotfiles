@@ -1,5 +1,6 @@
 xorg-server
 xorg-xinit
+dmenu
 nemo
 firefox
 chromium
@@ -8,9 +9,9 @@ code
 htop
 pipewire
 keepassxc
-zsh
-zsh-completions
+bash-completion
 brightnessctl
 ttf-font-awesome
 ttf-bitstream-vera
 iw
+neovim
