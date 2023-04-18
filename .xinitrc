@@ -8,5 +8,5 @@
 # Autostart
 
 #exec slstatus &
-
+exec dwmblocks &
 exec dwm
