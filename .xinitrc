@@ -8,5 +8,7 @@
 # Autostart
 
 #exec slstatus &
-exec dwmblocks &
+xsetroot -name "Bismillah"
+dwmblocks &
+
 exec dwm
