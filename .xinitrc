@@ -7,6 +7,9 @@
 
 # Autostart
 
+clipmenud &
+# clipmenu Environment Variable
+export CM_DIR=/tmp
 #exec slstatus &
 xsetroot -name "Bismillah"
 dwmblocks &
