@@ -1,3 +1,0 @@
-#!/bin/sh
-
-printf "$(sensors | grep "Core 0" | awk '{print $3}' | tr -d "+")"

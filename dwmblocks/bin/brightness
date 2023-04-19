@@ -1,9 +1,0 @@
-#!/bin/sh
-# display current brightness
-
-# get first two digits of brightness value
-
-backlight=$(ls /sys/class/backlight/)
-brightness=$(($(cat /sys/class/backlight/$backlight/brightness) * 100 / $(cat /sys/class/backlight/$backlight/max_brightness)))
-
-echo "*$brightness"

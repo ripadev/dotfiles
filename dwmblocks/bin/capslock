@@ -1,9 +1,0 @@
-#!/bin/sh
-# show if caps lock is on or off
-
-# caps lock status
-capslock=$(xset q | grep "Caps Lock:" | awk '{print $4}')
-
-
-
-printf "Caps:$capslock"

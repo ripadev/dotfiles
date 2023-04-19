@@ -1,3 +1,6 @@
 [submodule "dmenu"]
 	path = dmenu
 	url = git@github.com:riparuk/dmenu.git
+[submodule "dwmblocks"]
+	path = dwmblocks
+	url = git@github.com:riparuk/dwmblocks.git
