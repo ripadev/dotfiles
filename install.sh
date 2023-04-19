@@ -10,5 +10,5 @@ cd "$SCRIPT_DIR/dwm" && sudo make clean install
 cd "$SCRIPT_DIR/st" && sudo make clean install
 cd "$SCRIPT_DIR/dwmblocks" && sudo make clean install
 cd "$SCRIPT_DIR/dmenu" && sudo make clean install
-mkdir -p ~/.local/bin && cp $SCRIPT_DIR/dwmblocks/bin/* ~/.local/bin/
+mkdir -p ~/.local/bin && cp $SCRIPT_DIR/dwmblocks/bin/* ~/.local/bin/ && cp startdwm ~/.local/bin
 
