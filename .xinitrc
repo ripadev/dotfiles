@@ -13,5 +13,5 @@ export CM_DIR=/tmp
 #exec slstatus &
 xsetroot -name "Bismillah"
 dwmblocks &
-
+exec startdwm;
 exec dwm
