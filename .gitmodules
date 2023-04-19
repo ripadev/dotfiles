@@ -4,3 +4,6 @@
 [submodule "dwmblocks"]
 	path = dwmblocks
 	url = git@github.com:riparuk/dwmblocks.git
+[submodule "dwm"]
+	path = dwm
+	url = git@github.com:riparuk/dwm.git
