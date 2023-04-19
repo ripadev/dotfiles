@@ -6,7 +6,7 @@
 #done &
 
 # Autostart
-
+pkill -f "bash /usr/bin/clipmenud"; pkill -f "clipnotify";
 clipmenud &
 # clipmenu Environment Variable
 export CM_DIR=/tmp

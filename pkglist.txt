@@ -3,8 +3,8 @@ xorg-xinit
 xorg-xsetroot
 dmenu
 clipmenu
-rofi
-nemo
+
+Nemo
 firefox
 chromium
 neovim
