@@ -16,6 +16,6 @@ xsetroot -name "Bismillah"
 exec dwmblocks &
 
 #startdwm is script to restart dwm without logout
-#exec startdwm
-
+exec startdwm
+picom -b
 exec dwm

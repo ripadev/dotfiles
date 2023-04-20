@@ -5,6 +5,8 @@ dmenu
 clipmenu
 brightnessctl
 iw
+picom
+feh
 
 thunar
 firefox
