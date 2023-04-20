@@ -3,18 +3,18 @@ xorg-xinit
 xorg-xsetroot
 dmenu
 clipmenu
+brightnessctl
+iw
 
-Nemo
+thunar
 firefox
-chromium
 neovim
 code
 htop
+
 pipewire
 keepassxc
 bash-completion
-brightnessctl
 ttf-font-awesome
 ttf-bitstream-vera
-iw
-neovim
+

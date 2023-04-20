@@ -5,13 +5,17 @@
 #   sleep 1m    # Update time every minute
 #done &
 
-# Autostart
-pkill -f "bash /usr/bin/clipmenud"; pkill -f "clipnotify";
-clipmenud &
-# clipmenu Environment Variable
+
+# clipmenu
+systemctl --user import-environment DISPLAY
 export CM_DIR=/tmp
+pkill -f "bash /usr/bin/clipmenud"; pkill -f "clipnotify"; /usr/bin/clipmenud & 
+
 #exec slstatus &
 xsetroot -name "Bismillah"
-dwmblocks &
-exec startdwm;
+exec dwmblocks &
+
+#startdwm is script to restart dwm without logout
+#exec startdwm
+
 exec dwm
