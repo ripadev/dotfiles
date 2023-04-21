@@ -1,12 +1,15 @@
 xorg-server
 xorg-xinit
 xorg-xsetroot
+xorg-xdpyinfo
 dmenu
 clipmenu
 brightnessctl
 iw
 picom
 feh
+acpi
+lsb_release
 
 thunar
 firefox

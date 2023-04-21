@@ -13,10 +13,10 @@ pkill -f "bash /usr/bin/clipmenud"; pkill -f "clipnotify"; /usr/bin/clipmenud &
 
 #exec slstatus &
 xsetroot -name "Bismillah"
-exec dwmblocks &
+dwmblocks &
 
 #startdwm is script to restart dwm without logout
-exec startdwm
 picom -b
-feh --bg-scale ~/background.jpg
+source ~/.fehbg
+#startdwm 
 exec dwm
