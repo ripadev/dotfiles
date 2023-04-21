@@ -11,6 +11,7 @@ feh
 acpi
 lsb_release
 
+lazygit
 thunar
 firefox
 neovim
