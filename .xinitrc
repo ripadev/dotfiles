@@ -18,4 +18,5 @@ exec dwmblocks &
 #startdwm is script to restart dwm without logout
 exec startdwm
 picom -b
+feh --bg-scale ~/background.jpg
 exec dwm
