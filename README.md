@@ -6,4 +6,6 @@ to clone the repository including submodule you can use `git clone --recurse-sub
 to start dwm just type `startx` in terminal and hit enter.  
   
 Preview :  
-![dwmlook](dwmlook.png)
+![dwmlook](dwmlook.png)  
+
+
