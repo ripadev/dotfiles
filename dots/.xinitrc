@@ -15,6 +15,7 @@ pkill -f "clipnotify"
 
 # Status bar
 xsetroot -name "Bismillah"
+sleep 2
 dwmblocks &
 
 #startdwm is script to restart dwm without logout
