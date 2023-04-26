@@ -3,13 +3,14 @@ xorg-xinit
 xorg-xsetroot
 xorg-xdpyinfo
 dmenu
+openssh
 clipmenu
 brightnessctl
 iw
 picom
 feh
 acpi
-lsb_release
+lsb-release
 
 lazygit
 thunar
