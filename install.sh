@@ -21,7 +21,8 @@ esac
 read -p "Copy all the dotfiles? (yes/no) " yn
 case $yn in 
 	yes ) echo ok, we will proceed;
-		cp -fv $SCRIPT_DIR/dots/.[^.]* ~/ && echo "All dotfiles copied.....(Done)!";;
+		cp -fv $SCRIPT_DIR/dots/.[^.]* ~/ && echo "All dotfiles copied.....(Done)!";
+		cp -fv $SCRIPT_DIR/background.jpg ~/ && echo "Copied Default Background";;
 	no ) echo Skipping...;;
 	* ) echo invalid response;
 		exit 1;;
