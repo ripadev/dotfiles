@@ -14,9 +14,8 @@ pkill -f "clipnotify"
 /usr/bin/clipmenud & 
 
 # Status bar
-xsetroot -name "Bismillah"
-sleep 2
-dwmblocks &
+xsetroot -name "Bismillah" 
+/usr/local/bin/dwmblocks &
 
 #startdwm is script to restart dwm without logout
 picom -b
