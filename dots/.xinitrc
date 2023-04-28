@@ -5,6 +5,8 @@
 #   sleep 1m    # Update time every minute
 #done &
 
+#env
+export EDITOR=nvim;
 
 # clipmenu
 systemctl --user import-environment DISPLAY
