@@ -12,8 +12,8 @@ feh
 acpi
 lsb-release
 
+nemo
 lazygit
-thunar
 firefox
 neovim
 code
