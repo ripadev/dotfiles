@@ -13,6 +13,7 @@ acpi
 lsb-release
 
 nemo
+nemo-fileroller
 lazygit
 firefox
 neovim
