@@ -23,6 +23,5 @@ htop
 pipewire
 keepassxc
 bash-completion
-ttf-font-awesome
 ttf-bitstream-vera
 
