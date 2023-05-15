@@ -11,7 +11,9 @@ picom
 feh
 acpi
 lsb-release
+
 notification-daemon
+libnotify
 
 nemo
 nemo-fileroller
