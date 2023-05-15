@@ -6,7 +6,7 @@
 #done &
 
 #env
-export EDITOR=nvim;
+
 
 # clipmenu
 systemctl --user import-environment DISPLAY
@@ -22,5 +22,5 @@ xsetroot -name "Bismillah"
 #startdwm is script to restart dwm without logout
 picom -b
 feh --no-fehbg --bg-scale '/home/ripa/background.jpg'
-#startdwm 
+~/.local/bin/startdwm 
 exec dwm
