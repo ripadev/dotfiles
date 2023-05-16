@@ -36,4 +36,15 @@ case $yn in
 		exit 1;;
 esac
 
+read -p "Install Standalone Notification Server (Battery,etc)? (yes/no) " yn
+case $yn in 
+	yes ) echo ok, we will proceed;
+		sudo cp -f $SCRIPT_DIR/services/* /usr/share/dbus-1/services/;
+		sudo pacman -Sy libnotify notification-daemon;;
+	no ) echo Skipping...;;
+	* ) echo invalid response;
+		exit 1;;
+esac
+
+
 echo "===Please reboot to take effect!==="
