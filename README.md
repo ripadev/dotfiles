@@ -4,6 +4,8 @@ The desktop configuration contains `dwm`, `dmenu`, `dwmblock`, and `st` ready to
 to install the whole thing you just run the `install.sh` script (Recommended after reinstalling Arch Linux, or you will need to configure it yourself).  
 to start dwm just type `startx` in terminal and hit enter.
  
+if you find bugs or errors, or you want to make the source code cleaner, **Feel free to Pull Requests**
+
 ## Patch Installed
 ```
 dwm:
@@ -116,6 +118,7 @@ Note: Replace [Mod] with your specific modifier key (e.g., Super/Windows key).
 
 ```
 Preview :  
-![dwmlook](dwmlook.png)  
+![dwmlook](dwmlook.png) 
+
 
 
