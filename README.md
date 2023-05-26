@@ -4,7 +4,7 @@ The desktop configuration contains `dwm`, `dmenu`, `dwmblock`, and `st` ready to
 to install the whole thing you just run the `install.sh` script (Recommended after reinstalling Arch Linux, or you will need to configure it yourself).  
 to start dwm just type `startx` in terminal and hit enter.
  
-##Patch Installed
+## Patch Installed
 ```
 dwm:
 - zoomswap
@@ -21,7 +21,7 @@ st:
 
 ```
 
-##Keybindings
+## Keybindings
 ```
 Keybindings for dwm Configuration
 ================================
