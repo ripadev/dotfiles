@@ -15,7 +15,7 @@ lsb-release
 nemo
 nemo-fileroller
 lazygit
-firefox
+chromium
 neovim
 code
 kate
