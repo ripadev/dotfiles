@@ -7,6 +7,8 @@
 
 #env
 
+#load
+xrdb ~/.Xresources;
 
 # clipmenu
 systemctl --user import-environment DISPLAY
