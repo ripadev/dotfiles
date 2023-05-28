@@ -11,6 +11,7 @@ picom
 feh
 acpi
 lsb-release
+dzen2
 
 nemo
 nemo-fileroller
