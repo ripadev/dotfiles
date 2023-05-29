@@ -12,7 +12,7 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
 
-call plug#begin()
+call plug#end()
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>

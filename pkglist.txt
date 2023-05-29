@@ -19,8 +19,9 @@ lazygit
 chromium
 neovim
 code
-kate
+geany
 htop
+
 
 pipewire
 keepassxc
