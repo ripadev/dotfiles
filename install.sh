@@ -18,7 +18,7 @@ case $yn in
 esac
 
 
-read -p "Copy all the dotfiles? (yes/no) " yn
+read -p "Copy all the dotfiles and cofiguration preferences? (yes/no) " yn
 case $yn in 
 	yes ) echo ok, we will proceed;
 		cp -fv $SCRIPT_DIR/dots/.[^.]* ~/ && echo "All dotfiles copied.....(Done)!";
@@ -28,9 +28,8 @@ case $yn in
 		mkdir -p ~/.icons;
 		tar -xf $SCRIPT_DIR/.themes/Nordic-darker.tar.gz -C ~/.themes/ && echo "Extract to ~/.themes.....SUCCESS";
 		tar -xf $SCRIPT_DIR/.icons/Nordic-darker.tar.gz -C ~/.icons/ && echo "Extract to ~/.icons.....SUCCESS";
-		echo "Copy gtk3 configuration settings.ini to ~/.config/gtk-3.0/ .....";
-		mkdir -p ~/.config && mkdir -p ~/.config/"gtk-3.0";
-		cp -f "$SCRIPT_DIR/.config/gtk-3.0/settings.ini" ~/.config/"gtk-3.0" && echo "Copied.....SUCCESS";;
+		echo "Copy .config/ configuration to ~/.config/ .....";
+		cp -rf -fv $SCRIPT_DIR/.config/* ~/.config/ && echo "Copied.....SUCCESS";;
 	no ) echo Skipping...;;
 	* ) echo invalid response;
 		exit 1;;
