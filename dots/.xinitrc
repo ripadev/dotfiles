@@ -23,6 +23,6 @@ xsetroot -name "Bismillah"
 
 #startdwm is script to restart dwm without logout
 picom -b
-feh --no-fehbg --bg-scale '/home/ripa/background.jpg'
+~/.fehbg &
 ~/.local/bin/startdwm 
 exec dwm
