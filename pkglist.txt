@@ -12,6 +12,8 @@ feh
 acpi
 lsb-release
 dzen2
+bluez
+bluez-utils
 
 nemo
 nemo-fileroller
