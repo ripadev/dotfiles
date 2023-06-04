@@ -15,3 +15,5 @@ export PS1="\u@\h:\[$(tput sgr0)\]\[\033[38;5;6m\][\[$(tput sgr0)\]\[\033[38;5;8
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
+
+export $(envsubst < .env)
