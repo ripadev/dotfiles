@@ -24,5 +24,6 @@ xsetroot -name "Bismillah"
 #startdwm is script to restart dwm without logout
 picom -b
 ~/.fehbg &
-~/.local/bin/startdwm 
+~/.local/bin/startdwm
+dunst &
 exec dwm
