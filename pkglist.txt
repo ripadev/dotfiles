@@ -31,3 +31,4 @@ keepassxc
 bash-completion
 ttf-bitstream-vera
 
+ruby
