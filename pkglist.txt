@@ -26,9 +26,9 @@ neovim
 code
 geany
 htop
-
 keepassxc
+
 bash-completion
 ttf-bitstream-vera
-
+noto-fonts-emoji
 ruby
