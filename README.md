@@ -120,5 +120,7 @@ Note: Replace [Mod] with your specific modifier key (e.g., Super/Windows key).
 Preview :  
 ![dwmlook](dwmlook.png) 
 
+emoji link : [emojipedia unicode 6.0](https://emojipedia.org/unicode-6.0/)
+
 
 
