@@ -30,7 +30,7 @@ case $yn in
 		tar -xf $SCRIPT_DIR/.themes/Nordic-darker.tar.gz -C ~/.themes/ && echo "Extract to ~/.themes.....SUCCESS";
 		tar -xf $SCRIPT_DIR/.icons/Nordic-darker.tar.gz -C ~/.icons/ && echo "Extract to ~/.icons.....SUCCESS";
 		echo "Copy .config/ configuration to ~/.config/ .....";
-		cp -rf -fv $SCRIPT_DIR/.config/* ~/.config/ && echo "Copied.....SUCCESS";;
+		cp -rfv $SCRIPT_DIR/.config/* ~/.config/ && echo "Copied.....SUCCESS";;
 	no ) echo Skipping...;;
 	* ) echo invalid response;
 		exit 1;;
