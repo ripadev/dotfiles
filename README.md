@@ -49,6 +49,9 @@ Window Management:
 [Mod]+[l]               - Increase the size of the master area.
 [Mod]+[i]               - Increase the number of windows in the master area.
 [Mod]+[d]               - Decrease the number of windows in the master area.
+[Mod]+[-]               - Decrease the gap size
+[Mod]+[=]               - Increase the gap size
+[Mod]+[Shift]+[=]       - Set gap size to zero
 
 Layouts:
 --------
