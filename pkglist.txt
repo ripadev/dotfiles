@@ -25,6 +25,7 @@ chromium
 neovim
 code
 geany
+vte3
 htop
 keepassxc
 
