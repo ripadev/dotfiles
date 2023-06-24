@@ -28,8 +28,8 @@ geany
 vte3
 htop
 keepassxc
-
-bash-completion
-ttf-bitstream-vera
-noto-fonts-emoji
 ruby
+bash-completion
+
+adobe-source-code-pro-fonts
+noto-fonts-emoji
