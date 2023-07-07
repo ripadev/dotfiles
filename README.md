@@ -11,6 +11,8 @@ if you find bugs or errors, or you want to make the source code cleaner, **Feel 
 dwm:
 - zoomswap
 - focusonclick
+- fullgaps
+- multipledynamicscratchpads
 
 dmenu:
 - case-insensitive
