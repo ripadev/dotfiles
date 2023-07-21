@@ -3,6 +3,8 @@ lua print("Ripa's vim Config")
 set relativenumber
 set autoindent
 set ignorecase
+set tabstop=2
+set shiftwidth=2
 
 " My Custom key
 let mapleader=","
