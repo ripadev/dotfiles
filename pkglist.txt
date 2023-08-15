@@ -12,14 +12,21 @@ feh
 acpi
 lsb-release
 dzen2
+
 bluez
 bluez-utils
 blueman
+
 pipewire
 alsa-utils
 
-nemo
-nemo-fileroller
+mtpfs
+gvfs-mtp
+gvfs-gphoto2
+
+pcmanfm-gtk3
+gvfs
+
 lazygit
 chromium
 neovim
