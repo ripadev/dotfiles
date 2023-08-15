@@ -13,6 +13,7 @@ dwm:
 - focusonclick
 - fullgaps
 - multipledynamicscratchpads
+- pertag
 
 dmenu:
 - case-insensitive
