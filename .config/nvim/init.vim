@@ -28,16 +28,16 @@ Plug 'junegunn/fzf.vim'
 Plug 'EdenEast/nightfox.nvim'
 
 " Lsp Zero LSP Support
-Plug 'neovim/nvim-lspconfig'                           " Required
-Plug 'williamboman/mason.nvim', {'do': ':MasonUpdate'} " Optional
-Plug 'williamboman/mason-lspconfig.nvim'               " Optional
+" Plug 'neovim/nvim-lspconfig'                           " Required
+" Plug 'williamboman/mason.nvim', {'do': ':MasonUpdate'} " Optional
+" Plug 'williamboman/mason-lspconfig.nvim'               " Optional
 
 " Autocompletion
-Plug 'hrsh7th/nvim-cmp'     " Required
-Plug 'hrsh7th/cmp-nvim-lsp' " Required
-Plug 'L3MON4D3/LuaSnip'     " Required
+" Plug 'hrsh7th/nvim-cmp'     " Required
+" Plug 'hrsh7th/cmp-nvim-lsp' " Required
+" Plug 'L3MON4D3/LuaSnip'     " Required
 
-Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v2.x'}
+" Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v2.x'}
 
 " treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -49,7 +49,7 @@ lua require("_nightfox")
 colorscheme nightfox
 
 "LSP Zero usage
-lua require("_lsp-zero")
+" lua require("_lsp-zero")
 
 
 

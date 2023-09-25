@@ -112,7 +112,7 @@ Scratchpad:
 [Mod]+[Shift]+[s]       - Hide Scratchpad 1.
 [Mod]+[Shift]+[y]       - Hide Scratchpad 2.
 [Mod]+[Shift]+[u]       - Hide Scratchpad 3.
-[Mod]+[r]               - Remove Scratchpad.
+[Mod]+[Shift]+[r]       - Remove Scratchpad.
 
 Clipboard Management:
 ---------------------
