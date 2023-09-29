@@ -25,31 +25,29 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " Colorscheme
-Plug 'EdenEast/nightfox.nvim'
-
-" Lsp Zero LSP Support
-" Plug 'neovim/nvim-lspconfig'                           " Required
-" Plug 'williamboman/mason.nvim', {'do': ':MasonUpdate'} " Optional
-" Plug 'williamboman/mason-lspconfig.nvim'               " Optional
-
-" Autocompletion
-" Plug 'hrsh7th/nvim-cmp'     " Required
-" Plug 'hrsh7th/cmp-nvim-lsp' " Required
-" Plug 'L3MON4D3/LuaSnip'     " Required
-
-" Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v2.x'}
+Plug 'EdenEast/nightfox.nvim' " Vim-Plug
 
 " treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+" For nvim-cmp
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+
+" For vsnip users.
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
+
+" For snippy users.
 call plug#end()
 
+" nvim-cmp setup configuration
+lua require("_nvim-cmp")
+
 "Nightfox colorscheme
-lua require("_nightfox")
-colorscheme nightfox
-
-"LSP Zero usage
-" lua require("_lsp-zero")
-
-
+colorscheme nordfox
 
