@@ -26,6 +26,7 @@ Plug 'junegunn/fzf.vim'
 
 " Colorscheme
 Plug 'EdenEast/nightfox.nvim' " Vim-Plug
+Plug 'folke/tokyonight.nvim'
 
 " treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -47,7 +48,7 @@ call plug#end()
 
 " nvim-cmp setup configuration
 lua require("_nvim-cmp")
+lua require("_tokyonight")
 
 "Nightfox colorscheme
 colorscheme nordfox
-
