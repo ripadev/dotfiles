@@ -49,6 +49,7 @@ call plug#end()
 " nvim-cmp setup configuration
 lua require("_nvim-cmp")
 lua require("_tokyonight")
+lua require("_nightfox")
 
 "Nightfox colorscheme
 colorscheme nordfox
