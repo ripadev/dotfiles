@@ -52,4 +52,4 @@ lua require("_tokyonight")
 lua require("_nightfox")
 
 "Nightfox colorscheme
-colorscheme nordfox
+colorscheme nightfox
