@@ -12,6 +12,7 @@ feh
 acpi
 lsb-release
 dzen2
+flameshot
 
 bluez
 bluez-utils
