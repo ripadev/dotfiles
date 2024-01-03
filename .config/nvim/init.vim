@@ -13,7 +13,7 @@ nnoremap <Leader>p :Files<Cr>
 nnoremap <Leader>f :Rg<Cr> 
 nnoremap <Leader>q :Ex<Cr>
 noremap <Leader>h :TSToggle highlight<Cr>
-
+nnoremap <leader>l :lua vim.lsp.buf.code_action()<CR>
 map <C-p> <Nop>
 map <C-n> <Nop>
 
