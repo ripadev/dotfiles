@@ -30,6 +30,7 @@ Plug 'folke/tokyonight.nvim'
 
 " treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter-context', {'do': ':TSUpdate'}
 
 " For nvim-cmp
 Plug 'neovim/nvim-lspconfig'
@@ -50,6 +51,8 @@ call plug#end()
 lua require("_nvim-cmp")
 lua require("_tokyonight")
 lua require("_nightfox")
+lua require("treesitter")
+hi TreesitterContextLineNumberBottom gui=underline guisp=Grey
 
 "Nightfox colorscheme
 colorscheme nightfox
