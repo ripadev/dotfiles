@@ -21,6 +21,9 @@ pkill -f "clipnotify"
 xsetroot -name "Bismillah" 
 /usr/local/bin/dwmblocks &
 
+# Set Default App
+xdg-mime default pcmanfm.desktop inode/directory
+
 #startdwm is script to restart dwm without logout
 picom -b
 ~/.fehbg &
